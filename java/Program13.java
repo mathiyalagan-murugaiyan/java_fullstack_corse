@@ -18,6 +18,7 @@ class Program13{
 	 	if (i%2 == 0){
           
           sum += i;
+          
            System.out.println(i);
 
 	 	}

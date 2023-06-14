@@ -4,13 +4,10 @@ class StrongNumber{
 
     int num ;
 
-    
-
    static String Strong(int num){
    	
     
     int temp,fact,sum=0,rem,i;
-    String number ,value;
     
     temp = num;
 
@@ -31,7 +28,7 @@ class StrongNumber{
     	num = num/10;
 
     }
-    return value=(temp == sum) ? "Strong number" : "not Strong number";
+    return (temp == sum) ? "Strong number" : "not Strong number";
 
       
 	}
