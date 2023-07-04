@@ -17,12 +17,12 @@ class Palindrom{
 		}
 		 if (temp == sum){
 
-         	System.out.println("prime number");
+         	System.out.println("palindrom number");
 
          }
          else 
 
-         	System.out.println("not prime number");
+         	System.out.println("not palindrom number");
 
 	}
 }
